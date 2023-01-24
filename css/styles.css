@@ -190,6 +190,9 @@ Navbar
   position: fixed;
   background-color: var(--clr-white);
   z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .nav-logo {
@@ -225,6 +228,10 @@ Navbar
 
   .navbar {
     background-color: var(--clr-primary-10);
+  }
+
+  .navbar-fixed {
+    background-color: var(--clr-white);
   }
 }
 
